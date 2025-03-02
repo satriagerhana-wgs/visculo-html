@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* START COMPONENT */
+
+.input-checkbox {
+  @apply w-6 h-6 text-gray bg-white border-black rounded;
+}
+
+.input-radio {
+  @apply w-6 h-6 text-black bg-white border-black focus:ring-black;
+}
+
+.btn-filter-outline {
+  @apply w-40 py-2.5 px-5 mr-2 mb-2 text-sm font-epilogue font-medium text-black focus:outline-none bg-white border border-black hover:border-primary hover:text-primary focus:z-10 focus:ring-0;
+}
+.btn-filter-black {
+  @apply w-40 py-2.5 px-5 mr-2 mb-2 text-sm font-epilogue font-medium text-white bg-black focus:outline-none border hover:border-primary hover:text-white hover:bg-primary focus:z-10 focus:ring-0;
+}
+.btn-primary {
+  @apply min-w-[180px] py-3 px-4 flex justify-center items-center text-base font-epilogue font-bold uppercase text-white bg-primary focus:outline-none border hover:text-white hover:bg-dark_blue focus:z-10 focus:ring-0;
+}
+.btn-black {
+  @apply py-3 px-4 flex justify-center items-center text-sm font-epilogue font-bold uppercase text-white bg-black focus:outline-none border  hover:text-white hover:bg-dark_blue focus:z-10 focus:ring-0;
+}
+.btn-secondary {
+  @apply min-w-[180px] py-3 px-4 flex justify-center items-center text-base font-epilogue font-bold uppercase border border-primary text-primary bg-transparent focus:outline-none hover:text-white hover:bg-primary focus:z-10 focus:ring-0;
+}
+.btn-outline {
+  @apply min-w-[180px] py-3 px-4 flex justify-center items-center text-base font-epilogue font-bold uppercase border border-black text-black bg-transparent focus:outline-none hover:text-white hover:bg-black focus:z-10 focus:ring-0;
+}
+.btn-negatife {
+  @apply min-w-[180px] py-3 px-4 flex justify-center items-center text-base font-epilogue font-bold uppercase border border-white text-white bg-transparent focus:outline-none hover:text-black hover:bg-white focus:z-10 focus:ring-0;
+}
+.btn-with-icon {
+  @apply min-w-[200px] min-h-[50px] px-4 flex justify-center items-center text-xs font-epilogue uppercase font-bold  text-black border border-primary rounded-md bg-white focus:outline-none focus:z-10 focus:ring-0;
+}
+.btn-cta-order {
+  @apply min-w-[150px] min-h-[30px] px-4 flex justify-center items-center text-[11px] font-epilogue uppercase font-bold  text-black border border-primary bg-white focus:outline-none focus:z-10 focus:ring-0;
+}
+.btn-cta-voucher {
+  @apply min-w-[150px] min-h-[30px] px-4 flex justify-center items-center text-[11px] font-epilogue uppercase font-bold  text-white  bg-black focus:outline-none focus:z-10 focus:ring-0;
+}
+.link-icon-rigth {
+  @apply text-black uppercase font-bold font-epilogue tracking-1 flex items-center;
+}
+.link-icon-rigth-negatife {
+  @apply text-white uppercase font-bold font-epilogue tracking-1 flex items-center;
+}
+
+.link-active {
+  @apply text-black py-1 border-b-2  border-primary uppercase font-bold font-epilogue tracking-1 flex items-center;
+}
+.link-active-negative {
+  @apply text-white py-1 border-b-2  border-primary uppercase font-bold font-epilogue tracking-1 flex items-center;
+}
+.badge-light-red {
+  @apply inline-block whitespace-nowrap bg-light_blue px-3 py-1 text-center align-baseline uppercase font-epilogue font-regular leading-none text-primary text-[10px];
+}
+.badge-sm {
+  @apply inline-block whitespace-nowrap rounded-[5px] bg-primary p-[6px] text-center align-baseline font-epilogue font-bold leading-none text-white text-[10px];
+}
+.badge-small {
+  @apply inline-block whitespace-nowrap rounded-[5px] bg-primary p-2 text-center align-baseline font-epilogue font-bold leading-none text-white text-xs;
+}
+.badge-medium {
+  @apply inline-block whitespace-nowrap rounded-[5px] bg-primary py-3 px-4 text-center font-epilogue align-baseline font-bold leading-none text-white text-xs;
+}
+
+/* END COMPONENT */
